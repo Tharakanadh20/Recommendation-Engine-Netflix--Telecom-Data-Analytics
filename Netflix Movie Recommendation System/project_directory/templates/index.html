@@ -1,0 +1,41 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Movie Recommendation Engine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Netflix Movie Recommendation Engine</h1>
+      <form id="movieForm" method="post" onsubmit="return validateForm()">
+        <label for="movie_title">Enter Movie Title:</label>
+        <input type="text" name="movie_title" id="movie_title" required />
+        <button type="submit">Find Recommendations</button>
+      </form>
+    </div>
+
+    <script>
+      function validateForm() {
+        var movieTitle = document.getElementById("movie_title").value;
+
+        if (movieTitle.trim() === "") {
+          alert("Please enter a movie title.");
+          return false;
+        }
+
+        // You can add more validation if needed
+
+        return true;
+      }
+    </script>
+  </body>
+</html>
+<!-- index.html -->
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/style.css') }}"
+/>

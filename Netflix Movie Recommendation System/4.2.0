@@ -1,0 +1,30 @@
+Collecting nbformat
+  Downloading nbformat-5.9.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting fastjsonschema (from nbformat)
+  Downloading fastjsonschema-2.18.1-py3-none-any.whl.metadata (2.0 kB)
+Collecting jsonschema>=2.6 (from nbformat)
+  Downloading jsonschema-4.19.2-py3-none-any.whl.metadata (7.9 kB)
+Requirement already satisfied: jupyter-core in c:\users\thara\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from nbformat) (5.1.3)
+Requirement already satisfied: traitlets>=5.1 in c:\users\thara\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from nbformat) (5.8.1)
+Collecting attrs>=22.2.0 (from jsonschema>=2.6->nbformat)
+  Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+     ---------------------------------------- 0.0/61.2 kB ? eta -:--:--     -------------------- ------------------- 30.7/61.2 kB 1.3 MB/s eta 0:00:01     -------------------------------------- 61.2/61.2 kB 652.8 kB/s eta 0:00:00
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat)
+  Downloading jsonschema_specifications-2023.7.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat)
+  Downloading referencing-0.30.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=2.6->nbformat)
+  Downloading rpds_py-0.12.0-cp310-none-win_amd64.whl.metadata (3.8 kB)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\thara\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from jupyter-core->nbformat) (2.6.2)
+Requirement already satisfied: pywin32>=1.0 in c:\users\thara\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from jupyter-core->nbformat) (305)
+Downloading nbformat-5.9.2-py3-none-any.whl (77 kB)
+   ---------------------------------------- 0.0/77.6 kB ? eta -:--:--   ---------------------------------------- 77.6/77.6 kB 2.2 MB/s eta 0:00:00
+Downloading jsonschema-4.19.2-py3-none-any.whl (83 kB)
+   ---------------------------------------- 0.0/83.6 kB ? eta -:--:--   ---------------------------------------- 83.6/83.6 kB 4.6 MB/s eta 0:00:00
+Downloading fastjsonschema-2.18.1-py3-none-any.whl (23 kB)
+Downloading jsonschema_specifications-2023.7.1-py3-none-any.whl (17 kB)
+Downloading referencing-0.30.2-py3-none-any.whl (25 kB)
+Downloading rpds_py-0.12.0-cp310-none-win_amd64.whl (186 kB)
+   ---------------------------------------- 0.0/186.4 kB ? eta -:--:--   ------------------------ --------------- 112.6/186.4 kB ? eta -:--:--   ---------------------------------------- 186.4/186.4 kB 5.7 MB/s eta 0:00:00
+Installing collected packages: fastjsonschema, rpds-py, attrs, referencing, jsonschema-specifications, jsonschema, nbformat
+Successfully installed attrs-23.1.0 fastjsonschema-2.18.1 jsonschema-4.19.2 jsonschema-specifications-2023.7.1 nbformat-5.9.2 referencing-0.30.2 rpds-py-0.12.0
